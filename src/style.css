@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+  width: 100vw;
+  /* Created with https://www.css-gradient.com */
+  background: conic-gradient(from 315deg, #8cc8ff, #5d76d3);
+  color: white;
+}
+
+/* Main page Container  */
+.mainPageContainer {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 10px 20px;
+  border: 1px solid white;
+  /* padding: 10px; */
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+/* //title of main page  */
+
+.title {
+  font-size: 35px;
+}
+
+/* styling of input field  */
+.inputBox input {
+  outline: none;
+  background: inherit;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 500px;
+  font-size: 20px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.inputBox input::placeholder {
+  color: white;
+}
+
+/* Seller Card styling  */
+
+.sellerCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  width: 500px;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  /* flex-direction: column; */
+  margin: 10px;
+  border-radius: 50px;
+}
+.sellerCard img {
+  width: 80px;
+  height: fit-content;
+  /* transform: scale(100%); */
+}
+.sellerCard p {
+  font-size: 25px;
+}
